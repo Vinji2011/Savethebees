@@ -392,27 +392,12 @@ a:focus {
 /* ============================================
    PAGE LOGO (top and bottom)
    ============================================ */
-.page-logo {
+ .page-logo {
     text-align: center;
     width: 100%;
-}
-.page-logo img {
-    display: inline-block;
-    max-width: 220px;
-    width: 48%;
-    height: auto;
-    margin: 0.25rem auto;
-}
-.page-logo.top {
-    margin-top: 0.5rem;
-}
-.page-logo.bottom {
-    margin-bottom: 0.75rem;
-}
-
-@media (min-width: 768px) {
-    .page-logo img {
-        max-width: 320px;
-        width: auto;
-    }
+    background-image: url(images/Skjermbilde\ 2026-01-20\ 134143.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 120px; /* adjust as needed */
 }
